@@ -47,11 +47,14 @@ public class SimpleServlet extends SlingSafeMethodsServlet {
     private static final long serialVersionUid = 1L;
 //My reflections will reflect into GIT repository
     //My reflections will reflect into GIT repository
+    // after code
     @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {
         final Resource resource = req.getResource();
         resp.setContentType("text/plain");
         resp.getWriter().write("Title = " + resource.adaptTo(ValueMap.class).get("jcr:title"));
+        //things 
+        //will chnages
     }
 }
