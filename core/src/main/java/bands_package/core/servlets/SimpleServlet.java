@@ -45,7 +45,7 @@ import java.io.IOException;
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
     private static final long serialVersionUid = 1L;
-
+//My reflections will reflect into GIT repository
     @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {
