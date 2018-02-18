@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/brands_apss"/>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/brands_apss"/>
+</workspaceFilter>
