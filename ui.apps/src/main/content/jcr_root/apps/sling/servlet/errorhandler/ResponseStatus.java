@@ -16,6 +16,7 @@
 package apps.sling.servlet.errorhandler;
 
 import com.adobe.cq.sightly.WCMUsePojo;
+//WCMUsePojo
 
 public class ResponseStatus extends WCMUsePojo {
     
